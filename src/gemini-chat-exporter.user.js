@@ -17,7 +17,6 @@
 (function () {
     'use strict';
 
-    // --- 1. 样式：极简蓝色圆形下载按钮 ---
     GM_addStyle(`
         .gemini-export-circle-btn {
             position: fixed; right: 25px; bottom: 80px; z-index: 999999 !important;
@@ -31,7 +30,6 @@
         .gemini-export-icon { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
     `);
 
-    // --- 2. 深度转换算法 ---
     const MarkdownParser = {
         parseNode: function(node) {
             if (node.nodeType === 3) return node.nodeValue;
@@ -85,7 +83,6 @@
         }
     };
 
-    // --- 3. 逻辑控制 ---
     const Manager = {
         getChatTitle: function() {
             const titleEl = document.querySelector('[data-test-id="conversation-title"]');
@@ -126,7 +123,6 @@
         }
     };
 
-    // --- 4. 初始化 ---
     function init() {
         if (document.getElementById("gemini-export-final")) return;
         const btn = document.createElement("button");
