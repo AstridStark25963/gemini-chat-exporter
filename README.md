@@ -1,21 +1,22 @@
 # Gemini Chat Exporter
 
 ![License](https://img.shields.io/github/license/AstridStark25963/gemini-chat-exporter)
-![Version](https://img.shields.io/badge/version-1.0.2-blue)
+![Version](https://img.shields.io/badge/version-1.0.3-blue)
 ![Platform](https://img.shields.io/badge/platform-Gemini-orange)
 
 一个专为 Google Gemini 打造的极简、高保真对话导出工具。只需点击一下，即可将整段对话转换为排版精美的 Markdown 文档。
 
 ## ✨ 核心特性
 
-- **🚀 智能解析**：深度还原表格、多级标题、代码块（已修复语言标签重复问题）。
+- **📜 完整历史记录**：智能自动滚动加载技术，确保导出长对话时不再遗漏任何消息。
+- **🚀 智能解析**：深度还原表格、多级标题、代码块（已修复语言标签重复及空白标题问题）。
 - **🔗 完美超链接**：支持解析嵌套在加粗/斜体中的超链接，准确提取链接地址。
 - **🧠 思考过程适配**：智能识别 Gemini 的思考过程。
   - **展开时**：自动格式化为 Markdown 引用块，保留思考细节。
   - **折叠时**：自动过滤无关文本，保持文档清爽。
-- **🎨 极简交互**：右下角悬浮圆形蓝色图标，不占用页面空间，不干扰聊天体验。
-- **📅 智能命名**：自动提取对话标题并附加当前时间戳（`YYYYMMDD_HHmm`），避免文件名冲突。
-- **🧹 纯净输出**：自动过滤网页端隐藏的冗余文本（如 "Export to Sheets"、"Show thinking" 按钮及 "You said" 等提示词）。
+- **🎨 极简交互**：右下角悬浮圆形蓝色图标，点击后显示加载动画，防止误触。
+- **📅 精准命名**：自动提取对话标题并附加秒级时间戳（`YYYYMMDD_HHmmss`），彻底杜绝文件名冲突。
+- **🧹 纯净输出**：自动过滤网页端隐藏的冗余文本（如 "Export to Sheets"、辅助阅读标题及提示词）。
 - **🛡️ 安全可靠**：完美适配 Gemini 的 `TrustedHTML` 安全策略，无任何脚本报错。
 
 ## 📸 效果演示
