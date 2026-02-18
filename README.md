@@ -1,15 +1,16 @@
 # Gemini Chat Exporter
 
 ![License](https://img.shields.io/github/license/AstridStark25963/gemini-chat-exporter)
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Gemini-orange)
 
 一个专为 Google Gemini 打造的极简、高保真对话导出工具。只需点击一下，即可将整段对话转换为排版精美的 Markdown 文档。
 
 ## ✨ 核心特性
 
+- **🧮 完美数学公式**：直接提取 Gemini 底层公式代码，完美还原矩阵、积分、分段函数等复杂数学结构，支持 Typora/Obsidian 原生渲染。
+- **📊 深度表格还原**：不仅支持表格结构，更能精准还原单元格内的代码块、超链接和样式格式。
 - **📜 完整历史记录**：智能自动滚动加载技术，确保导出长对话时不再遗漏任何消息。
-- **🚀 智能解析**：深度还原表格、多级标题、代码块（已修复语言标签重复及空白标题问题）。
 - **🔗 完美超链接**：支持解析嵌套在加粗/斜体中的超链接，准确提取链接地址。
 - **🧠 思考过程适配**：智能识别 Gemini 的思考过程。
   - **展开时**：自动格式化为 Markdown 引用块，保留思考细节。
@@ -29,6 +30,7 @@ UI展示：
 
 ![导出效果展示1](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260215162051569.png)
 ![导出效果展示2](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260215162155997.png)
+![导出效果展示3](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260218130559932.png)
 
 ## 🛠️ 安装说明
 
