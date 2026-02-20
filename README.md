@@ -33,7 +33,7 @@ UI展示：
 ![导出效果展示1](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260215162051569.png)
 ![导出效果展示2](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260215162155997.png)
 ![导出效果展示3](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260218130559932.png)
-![导出效果展示4](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260220205155684.png)
+![导出效果展示4](https://cdn.jsdelivr.net/gh/AstridStark25963/ImageHosting@main/image/image-20260220205346034.png)
 
 ## 🛠️ 安装说明
 
