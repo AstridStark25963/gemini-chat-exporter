@@ -1,7 +1,7 @@
 # Gemini Chat Exporter
 
 ![License](https://img.shields.io/github/license/AstridStark25963/gemini-chat-exporter)
-![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![Version](https://img.shields.io/badge/version-1.2.1-blue)
 ![Platform](https://img.shields.io/badge/platform-Gemini-orange)
 
 一个专为 Google Gemini 打造的极简、高保真对话导出工具。只需点击一下，即可将整段对话转换为排版精美的 Markdown 文档。
